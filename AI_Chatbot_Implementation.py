@@ -36,7 +36,7 @@ class AIChatBot:
         return ai_reply
     
     def get_ai_response_from_full_conversation_history(self, full_conversation):
-        ai_gf_reply = self.generate_reply_from_conversation_history(full_conversation)
-        full_conversation.append({"role": "assistant", "content": ai_gf_reply})
+        ai_reIply = self.generate_reply_from_conversation_history(full_conversation)
+        full_conversation.append({"role": "assistant", "content": ai_reply})
         return full_conversation
         
